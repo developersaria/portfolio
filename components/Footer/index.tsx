@@ -4,16 +4,11 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-[1440px] px-6 md:px-14 lg:px-20 py-20 md:py-28">
         <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
           <h2 className="text-[clamp(3rem,6.5vw,6.2rem)] leading-[1.06] tracking-[-0.055em]">
-            Have something
-            <br />
-            <span className="font-[family-name:Georgia,Times_New_Roman,serif] italic font-normal text-[#d5dfa8]">
-              good in mind?
-            </span>
+            Interested in working with me?
           </h2>
           <div className="pb-2">
             <p className="mb-6 max-w-xs text-sm leading-7 text-white/75">
-              A frontend role, a thoughtful project, or a conversation about
-              what comes next.
+              Have a frontend role, a project idea, or need some help?
             </p>
             <a
               className="inline-flex items-center gap-6 border-b border-white/40 pb-3 text-base hover:text-[#d5dfa8] sm:text-lg"
