@@ -98,18 +98,18 @@ export default function Home() {
   const primarySkills = [
     {
       title: "Frontend development",
-      text: "Responsive interfaces, reusable React components, API integrations, and validated forms. Built with Next.js, TypeScript, and Tailwind CSS.",
+      text: "Responsive websites, reusable React components, API integrations, and validated forms. Built with Next.js, TypeScript, and Tailwind CSS.",
       tags: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     },
     {
       title: "Content & publishing",
-      text: "Custom content management systems, WordPress, and headless CMS workflows. Thoughtful content structure, accessible markup, and on-page SEO.",
+      text: "Custom CMS, WordPress, and headless CMS workflows. All built using best SEO practices.",
       tags: ["Headless CMS", "WordPress", "SEO", "Accessibility"],
     },
     {
       title: "Email & delivery",
       link: "/email-templates",
-      text: "Responsive HTML email templates, cross-browser debugging, and performance improvements. Ownership from implementation through deployment.",
+      text: "Responsive HTML email templates, cross-browser debugging. While using recent agile CI/CD practices.",
       tags: ["HTML email", "Git", "Vercel", "Cross-browser testing"],
     },
   ];
