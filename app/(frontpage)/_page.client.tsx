@@ -104,6 +104,7 @@ export default function Home() {
     },
     {
       title: "Email & delivery",
+      link: "/email-templates",
       text: "Responsive HTML email templates, cross-browser debugging, and performance improvements. Ownership from implementation through deployment.",
       tags: ["HTML email", "Git", "Vercel", "Cross-browser testing"],
     },
@@ -271,6 +272,15 @@ export default function Home() {
                 <p className="mt-4 text-sm leading-7 text-[#667068]">
                   {item.text}
                 </p>
+                {item.link && (
+                  <a
+                    href={item.link}
+                    className="mt-4 inline-block text-sm font-medium text-[#263c32] underline"
+                  >
+                    See Examples
+                  </a>
+                )}
+
                 <div className="mt-6 flex flex-wrap gap-2">
                   {item.tags.map((tag) => (
                     <span
