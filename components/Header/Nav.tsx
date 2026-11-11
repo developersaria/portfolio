@@ -72,7 +72,10 @@ export default function Nav() {
       aria-label="Reference navigation"
       className="flex items-center gap-5 text-[13px] font-medium sm:gap-8"
     >
-      <Link href="/about" className="hidden sm:block nav-item">
+      <Link
+        href="/#primary-skills-container"
+        className="hidden sm:block nav-item"
+      >
         About
       </Link>
       <Link href="/resume" className="hidden md:block nav-item">
@@ -80,9 +83,9 @@ export default function Nav() {
       </Link>
       <Link
         className="rounded-full border border-current/25 px-5 py-2.5 transition-colors duration-200 motion-reduce:transition-none hover:bg-[#263c32] hover:text-[#f8f7f0] nav-item"
-        href="/contact"
+        href="/#contact"
       >
-        Let’s talk
+        Let&apos;s talk
       </Link>
     </nav>
   );

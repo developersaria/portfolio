@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <section id="sample-contact" className="bg-[#263c32] text-[#f8f7f0]">
+    <section id="contact" className="bg-[#263c32] text-[#f8f7f0]">
       <div className="mx-auto w-full max-w-[1440px] px-6 md:px-14 lg:px-20 py-20 md:py-28">
         <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
           <h2 className="text-[clamp(3rem,6.5vw,6.2rem)] leading-[1.06] tracking-[-0.055em]">
