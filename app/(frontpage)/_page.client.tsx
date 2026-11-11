@@ -188,21 +188,22 @@ export default function Home() {
             {projects.map((item) => (
               <div
                 key={item.name}
-                className="sample-works-item motion-safe:opacity-0 border border-[#263c32]/25 p-6 rounded-xl flex gap-6 even:flex-row-reverse shadow-lg"
+                className="sample-works-item motion-safe:opacity-0 border border-[#263c32]/25 p-6 rounded-xl flex flex-col md:flex-row gap-6 md:even:flex-row-reverse shadow-lg"
               >
-                <div className="w-3/6 flex-shrink-0">
+                <div className="w-full md:w-3/6 md:flex-shrink-0">
                   <video
                     src={item.video}
                     width={1920}
                     height={1080}
                     className="rounded-xl"
                     autoPlay
+                    playsInline
                     controls
                     loop
                     muted
                   />
                 </div>
-                <div className="flex-1">
+                <div className="w-fullmd:flex-1">
                   <h3 className="mt-6 text-2xl font-medium tracking-tight flex items-center gap-2">
                     {item.name}
                     <span className="bg-[#b04f37]/10 text-[#b04f37] px-3 py-2 rounded-full text-xs ">
