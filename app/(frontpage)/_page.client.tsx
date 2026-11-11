@@ -14,7 +14,8 @@ export default function Home() {
       category: "COMMUNITY & DISCOVERY",
       url: "https://miipedia.com",
       domain: "miipedia.com",
-      video: "https://placeholdervideo.dev/1920x1080",
+      video:
+        "https://2g4ds34elh.ufs.sh/f/E1oJSot8nOeE8D8G8bJh4yM12U5mLQixHeqtWonTrFvYjOEB",
       description:
         "A home for the Tomodachi and Miitopia community. A browsable collection that brings creators and their characters together.",
       framework: "Next.js",
@@ -29,12 +30,43 @@ export default function Home() {
       ],
       tags: ["React", "Next.js", "OAuth"],
     },
+
+    {
+      name: "Carryon",
+      category: "TRAVEL & HOSPITALITY",
+      url: "https://www.bookcarryon.com/",
+      domain: "bookcarryon.com",
+      video:
+        "https://2g4ds34elh.ufs.sh/f/E1oJSot8nOeEu5NjcnqTQsVkcfhjzd182xDJGl7EtyBaovUg",
+      description:
+        "A travel website I built and maintained, bringing my frontend experience to a different audience and brand.",
+      framework: "Next.js",
+      integrations: [
+        {
+          name: "Mapbox",
+          howUsed: ["Autocomplete for addresses."],
+        },
+        {
+          name: "Stripe",
+          howUsed: ["Payment processing"],
+        },
+        {
+          name: "OAuth using Better Auth",
+          howUsed: [
+            "Used for user authentication via OAuth.",
+            "Services used include Facebook and Google.",
+          ],
+        },
+      ],
+      tags: ["React", "Next.js", "OAuth", "Mapbox", "Stripe"],
+    },
     {
       name: "PositiVT",
       category: "CREATORS & ENTERTAINMENT",
       url: "https://positivt.space/",
       domain: "positivt.space",
-      video: "https://placeholdervideo.dev/1920x1080",
+      video:
+        "https://2g4ds34elh.ufs.sh/f/E1oJSot8nOeEd5rN3JC2wxdi5NLAOZTS1MXnfKmUYaQCsWEr",
       description:
         "A digital home for a team of independent creators, with talent, schedules, and a shared identity built around positivity.",
       framework: "Next.js",
@@ -60,34 +92,6 @@ export default function Home() {
         },
       ],
       tags: ["React", "Next.js", "OAuth", "Twitch", "Google Calendar"],
-    },
-    {
-      name: "Carryon",
-      category: "TRAVEL & HOSPITALITY",
-      url: "https://www.bookcarryon.com/",
-      domain: "bookcarryon.com",
-      video: "https://placeholdervideo.dev/1920x1080",
-      description:
-        "A travel website I built and maintained, bringing my frontend experience to a different audience and brand.",
-      framework: "Next.js",
-      integrations: [
-        {
-          name: "Mapbox",
-          howUsed: ["Autocomplete for addresses."],
-        },
-        {
-          name: "Stripe",
-          howUsed: ["Payment processing"],
-        },
-        {
-          name: "OAuth using Better Auth",
-          howUsed: [
-            "Used for user authentication via OAuth.",
-            "Services used include Facebook and Google.",
-          ],
-        },
-      ],
-      tags: ["React", "Next.js", "OAuth", "Mapbox", "Stripe"],
     },
   ];
 

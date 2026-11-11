@@ -26,6 +26,12 @@ export default function Footer() {
         <footer className="mt-20 flex flex-wrap items-center justify-between gap-5 border-t border-white/20 pt-7 text-[11px] text-white/70">
           <span>© 2026 DevelopersAria. Built with care.</span>
           <span>NEXT.JS · TAILWIND CSS · GSAP</span>
+          <a
+            href="https://github.com/developersaria/portfolio"
+            className="hover:text-[#d5dfa8]"
+          >
+            GitHub
+          </a>
           <a href="#page-top">Back to top ↑</a>
         </footer>
       </div>
